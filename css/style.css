@@ -109,18 +109,20 @@ body {
 }
 
 .top-slide__btn {
+  margin-left: auto;
+}
+.button:hover {
+  color: white;
+  background-color: #7449bb;
+}
+.button {
   color: #7449bb;
   text-transform: uppercase;
   font-weight: 700;
   padding: 21px 55px;
   border: 1px solid #7449bb;
   display: inline-block;
-  margin-left: auto;
   transition: all 0.3s ease;
-}
-.top-slide__btn:hover {
-  color: white;
-  background-color: #7449bb;
 }
 
 .swiper-button-prev:after,
@@ -151,7 +153,8 @@ body {
 }
 
 .about {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+  overflow: hidden;
 }
 
 .about__inner {
@@ -177,6 +180,88 @@ body {
 
 .about__text {
   flex-basis: 387px;
+  line-height: 1.2;
 }
+
+.about__text p {
+  margin-bottom: 15px;
+}
+
 .about__text--bold {
+  font-weight: 700;
+}
+
+.about__item-title {
+  margin-bottom: 20px;
+}
+
+.about__slider {
+  width: 1800px;
+  padding-left: 200px;
+  margin-left: -200px;
+  padding-bottom: 20px;
+}
+
+.about__arrow {
+  margin-left: -198px;
+  margin-top: -6px;
+}
+
+.accardeon {
+  margin-bottom: 223px;
+}
+
+.accardeon__inner {
+  padding-left: 200px;
+}
+
+.accardeon__item {
+  border-bottom: 1px solid #000;
+  padding: 50px 101px 0px 0;
+  position: relative;
+}
+
+.accardeon__item:before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 51px;
+  background-image: url(/images/Arrow\ dawn.svg);
+  right: 85px;
+  top: 50px;
+}
+
+.accardeon__item:last-child ::before {
+  content: '';
+  position: absolute;
+  background-image: url(/images/parfime.jpg);
+  width: 65px;
+  height: 120px;
+  bottom: -73px;
+  left: 268px;
+}
+
+.accardeon__trigger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accardeon__trigger-title {
+  text-transform: uppercase;
+  flex-basis: 300px;
+  padding-bottom: 42px;
+}
+
+.accardeon__trigger-text {
+  flex-basis: 387px;
+  margin-right: 104px;
+  padding-bottom: 20px;
+}
+
+.accardeon__content {
+  padding-top: 20px;
+  display: none;
+}
+.accardeon__content p {
+  margin-bottom: 10px;
 }
