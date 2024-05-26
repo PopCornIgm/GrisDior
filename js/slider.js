@@ -1,4 +1,4 @@
-'use strick';
+'use strict';
 const swiper = new Swiper('.top__swiper', {
   effect: 'fade',
   autoplay: {
