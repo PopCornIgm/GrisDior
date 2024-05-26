@@ -304,8 +304,7 @@ body {
   opacity: 0.5;
   margin-bottom: 20px;
 }
-.products__item-img {
-}
+
 .products__item-name {
   margin-bottom: 10px;
 }
@@ -319,4 +318,27 @@ body {
   font-size: 32px;
   font-family: 'Playfair Display', serif;
   font-style: italic;
+}
+
+.video {
+  margin-bottom: 150px;
+  padding-left: 383px;
+  
+  
+}
+.video__box {
+  max-width: 997px;
+  min-height: 600px;
+  background-image: url(/images/video/video-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video__btn {
+  border: none;
+  background-color: transparent;
 }
