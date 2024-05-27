@@ -67,7 +67,7 @@
             <div class="top-slide">
               <div class="container">
                 <div class="top-slide__inner">
-                  <img src="/images/slider-top/1 1.jpg" alt="" />
+                  <img class="top-slide_img--mini" src="/images/slider-top/1 1.jpg" alt="" />
                   <div class="top-slide__content">
                     <h1 class="top-slide__title">GRIS DIOR</h1>
 
@@ -78,7 +78,7 @@
                     </p>
                     <a class="top-slide__btn button" href="">DISCOVER</a>
                   </div>
-                  <img src="/images/slider-top/2 1.jpg" alt="" />
+                  <img  class="top-slide__img" src="/images/slider-top/2 1.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -216,7 +216,7 @@
         </div>
       </div>
     </section>
-
+ 
     <div class="accardeon">
       <div class="container">
         <div class="accardeon__inner">
@@ -312,7 +312,7 @@
         </div>
       </div>
     </div>
-
+ 
     <div class="products">
       <div class="container">
         <div class="products__inner">
@@ -363,6 +363,7 @@
         </div>
       </div>
     </div>
+    
     <div class="video">
       <div class="container">
         <div class="video__box">
@@ -388,8 +389,12 @@
             <div class="footer__item">
               <h5 class="footer__item-title">SIGN UP FOR EXCLUSIVITY</h5>
               <form action="" class="footer__item-form">
-                <input type="emeil" placeholder="E-mail" />
-                <button type="submit">
+                <input
+                  class="footer__item-input"
+                  type="emeil"
+                  placeholder="E-mail"
+                />
+                <button class="footer__item-btn" type="submit">
                   <img src="/images/Arrow-right.svg" alt="" />
                 </button>
               </form>
@@ -397,21 +402,34 @@
 
             <div class="footer__item">
               <h5 class="footer__item-title">FIND A BOUTIQUE</h5>
-              <a href="#" class="footer__item-link"
-                >Parfums Christian Dior Boutiques</a
-              >
-              <a href="#" class="footer__item-link"
-                >Christian Dior Couture Boutiques</a
-              >
+              <ul class="footer__item-list">
+                <li>
+                  <a href="#" class="footer__item-link"
+                    >Parfums Christian Dior Boutiques</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="footer__item-link"
+                    >Christian Dior Couture Boutiques</a
+                  >
+                </li>
+              </ul>
             </div>
 
             <div class="footer__item">
               <h5 class="footer__item-title">CLIENT SERVICES</h5>
-              <a href="#" class="footer__item-link"
-                >Contact Parfums Christian Dior</a
-              >
-              <a href="#" class="footer__item-link">Delivery & Returns</a>
-              <a href="#" class="footer__item-link">FAQ</a>
+
+              <ul class="footer__item-list">
+                <li>
+                  <a href="#" class="footer__item-link"
+                    >Contact Parfums Christian Dior</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="footer__item-link">Delivery & Returns</a>
+                </li>
+                <li><a href="#" class="footer__item-link">FAQ</a></li>
+              </ul>
             </div>
           </div>
 
@@ -532,7 +550,7 @@
           </ul>
         </div>
       </div>
-    </footer>
+    </footer> 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/js/accardeon.js"></script>
     <script src="js/slider.js"></script>
